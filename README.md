@@ -2,7 +2,7 @@
 
 ![alt-text](https://github.com/arihantchoudhary/hi/blob/master/Github%20(1).png)
 
-I'm a beginner at data science using R. I love to work with climate models to predict impacts and perform climate analyses.
+I'm a beginner to data science using R. I love to work with climate models to predict impacts and perform climate analyses.
 
 I also enjoy discussing and collaborating on projects to bring about meaningful impact.
 
