@@ -1,7 +1,5 @@
 # Hi, I'm Arihant.
 
-![alt-text](https://github.com/arihantchoudhary/arihantchoudhary/blob/master/Github.png)
-
 I'm a beginner to data science using R. I love to work with climate models to predict impacts and perform climate analyses.
 
 I also enjoy discussing and collaborating on projects to bring about meaningful impact.
