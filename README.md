@@ -1,2 +1,2 @@
 # Hi, I'm Arihant.
-I like to learn, fail, and debug. 
+I learn, fail, debug and build
