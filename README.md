@@ -7,3 +7,4 @@ Brewing LLMs. Currently building:
 3. Document Analyzer converting Process Documents to Flow Diagrams
 4. Voice AI enabled Deep Research Assistant
 5. Swipeable Tweets on the Blockchain with Parth Behani
+6. Supply Chain Management (Reasonning + Planning) Agent for TSMC (Prof. Chang and Adam Virani)
