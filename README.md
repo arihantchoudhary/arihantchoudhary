@@ -3,7 +3,7 @@ I learn, fail, debug and build fast. I try to be consistent and deliver measurab
 
 Brewing LLMs. Currently building:
 1. Personal Edcuator for Intel
-2. AI Coding Agent to automate workflow between PRD->TDD->Jira->Github for Google TPMs
+2. AI Coding Agent to automate workflow between PRD->TDD->Jira->Github for Google TPMs with Lauren Bilbo
 3. Document Analyzer converting Process Documents to Flow Diagrams
 4. Voice AI enabled Deep Research Assistant
 5. Swipeable Tweets on the Blockchain with Parth Behani
