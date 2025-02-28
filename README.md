@@ -1,5 +1,5 @@
 # Hi, I'm Arihant.
-I learn, fail, debug and build fast. I try to be consistent and deliver measurable results (still pending for a lot o fmy projects) 
+I learn, fail, debug and build fast. I try to be consistent and deliver measurable results (still pending for a lot of my projects) 
 
 Brewing LLMs. Currently building:
 1. Personal Edcuator for Intel
