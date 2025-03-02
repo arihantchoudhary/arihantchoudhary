@@ -2,6 +2,7 @@
 I learn, fail, debug and build fast. I try to be consistent and deliver measurable results (still pending for a lot of my projects) 
 
 Brewing LLMs. Currently building:
+
 0. Perplexity for social media
 1. Personal Edcuator for Intel
 2. AI Coding Agent to automate workflow between PRD->TDD->Jira->Github for Google TPMs with Lauren Bilbo
