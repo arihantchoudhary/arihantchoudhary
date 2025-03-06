@@ -1,5 +1,5 @@
 # Hi, I'm Arihant.
-I learn, fail, debug and build fast. I try to be consistent and deliver measurable results (still pending for a lot of my projects) 
+I learn, fail, debug and build fast. I try to be consistent and deliver measurable results
 
 Brewing LLMs. Currently building:
 
@@ -11,3 +11,4 @@ Brewing LLMs. Currently building:
 5. Swipeable Tweets on the Blockchain with Parth Behani
 6. Supply Chain and Trade Management (Reasonning + Planning) Agent for TSMC and Middle Eastern Traders (Prof. Chang and Adam Virani)
 7. AI that attends meetings for me so I can build 1-6 peacefully (using Delphi)
+
