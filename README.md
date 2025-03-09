@@ -10,5 +10,4 @@ Brewing LLMs. Currently building:
 4. Voice AI enabled Deep Research Assistant
 5. Swipeable Tweets on the Blockchain with Parth Behani
 6. Supply Chain and Trade Management (Reasonning + Planning) Agent for TSMC and Middle Eastern Traders (Prof. Chang and Adam Virani)
-7. AI that attends meetings for me so I can build 1-6 peacefully (using Delphi)
-
+7. AI that attends meetings for me so I can build 1-6 peacefully
