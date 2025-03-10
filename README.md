@@ -1,5 +1,5 @@
 # Hi, I'm Arihant.
-I learn, fail, debug and build fast. I try to be consistent and deliver measurable results. Forward Deployed stuff
+I learn, fail, debug and build fast. I try to be consistent and deliver measurable results. learning Forward Deployed stuff 
 
 Brewing LLMs. Currently building:
 
