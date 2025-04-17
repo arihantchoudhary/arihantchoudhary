@@ -6,4 +6,4 @@ Google Scholar: [https://scholar.google.com/citations?view_op=list_works&hl=en&u
 
 Youtube: [https://www.youtube.com/@ArihantChoudhary-fb1qs ](url)
 
-Vibe coding 
+I'm currently building multi-agent systems that control your browser using voice 
