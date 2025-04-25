@@ -1,0 +1,91 @@
+version: '3.8'
+
+services:
+  # Databases
+  postgres:
+    image: ankane/pgvector:latest
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER:-postgres}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-postgres}
+      POSTGRES_DB: ${POSTGRES_DB:-harper}
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+  redis:
+    image: redis:alpine
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis_data:/data
+    command: redis-server --appendonly yes
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+  # Vector Database
+  chroma:
+    image: chromadb/chroma:latest
+    ports:
+      - "8000:8000"
+    volumes:
+      - chroma_data:/chroma/data
+    environment:
+      - ALLOW_RESET=true
+      - ANONYMIZED_TELEMETRY=false
+
+  # Temporal for workflow orchestration
+  temporal:
+    image: temporalio/auto-setup:1.20
+    ports:
+      - "7233:7233"
+    environment:
+      - DYNAMIC_CONFIG_FILE_PATH=config/dynamicconfig/development.yaml
+    volumes:
+      - temporal_data:/etc/temporal/config/dynamicconfig
+
+  # Prometheus for monitoring
+  prometheus:
+    image: prom/prometheus:latest
+    ports:
+      - "9090:9090"
+    volumes:
+      - ./prometheus.yml:/etc/prometheus/prometheus.yml
+      - prometheus_data:/prometheus
+
+  # Optional: UI for Vector DB management
+  vector-db-ui:
+    image: mindsdb/mindsdb:latest
+    ports:
+      - "47334:47334"
+      - "47335:47335"
+    environment:
+      MINDSDB_DB_TYPE: sqlite
+    volumes:
+      - mindsdb_data:/root/mindsdb_data
+
+  # Zep for conversation memory
+  zep:
+    image: ghcr.io/getzep/zep:latest
+    environment:
+      - ZEP_STORE_POSTGRES_DSN=postgres://${POSTGRES_USER:-postgres}:${POSTGRES_PASSWORD:-postgres}@postgres:5432/${POSTGRES_DB:-harper}?sslmode=disable
+    ports:
+      - "8080:8080"
+    depends_on:
+      - postgres
+
+volumes:
+  postgres_data:
+  redis_data:
+  chroma_data:
+  temporal_data:
+  prometheus_data:
+  mindsdb_data:

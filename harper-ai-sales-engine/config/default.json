@@ -1,0 +1,140 @@
+{
+  "app": {
+    "name": "harper-ai-sales-engine",
+    "version": "0.1.0",
+    "environment": "development"
+  },
+  "logging": {
+    "level": "info",
+    "format": "json"
+  },
+  "services": {
+    "voice_ai": {
+      "port": 3001,
+      "host": "0.0.0.0",
+      "conversation_duration_minutes": 15,
+      "livekit": {
+        "url": "wss://your-livekit-instance.com"
+      },
+      "twilio": {
+        "phone_number": "+15551234567"
+      },
+      "call_recording": {
+        "enabled": true,
+        "storage_path": "./data/recordings"
+      }
+    },
+    "agents": {
+      "port": 3002,
+      "host": "0.0.0.0",
+      "agent_orchestration": {
+        "framework": "mastra",
+        "fallback_framework": "langgraph"
+      },
+      "channels": [
+        "voice",
+        "email",
+        "chat",
+        "sms",
+        "web"
+      ]
+    },
+    "customer_portal": {
+      "port": 3003,
+      "host": "0.0.0.0",
+      "session_timeout_minutes": 60,
+      "features": {
+        "realtime_updates": true,
+        "document_upload": true,
+        "status_tracking": true,
+        "notifications": true
+      }
+    },
+    "recommendation_engine": {
+      "port": 3004,
+      "host": "0.0.0.0",
+      "model_path": "./models/carrier_recommendation",
+      "min_confidence_threshold": 0.7,
+      "features": {
+        "risk_assessment": true,
+        "premium_optimization": true,
+        "carrier_matching": true
+      }
+    },
+    "lead_scoring": {
+      "port": 3005,
+      "host": "0.0.0.0",
+      "model_path": "./models/lead_scoring",
+      "score_threshold": 0.6,
+      "features": {
+        "conversion_probability": true,
+        "premium_value_estimation": true,
+        "churn_risk": true
+      }
+    },
+    "document_parser": {
+      "port": 3006,
+      "host": "0.0.0.0",
+      "supported_formats": [
+        "pdf",
+        "docx",
+        "jpg",
+        "png"
+      ],
+      "storage_path": "./data/documents"
+    },
+    "harper_hub": {
+      "port": 3007,
+      "host": "0.0.0.0",
+      "escalation_timeout_seconds": 300
+    }
+  },
+  "database": {
+    "postgresql": {
+      "host": "localhost",
+      "port": 5432,
+      "database": "harper",
+      "user": "postgres",
+      "password": "postgres",
+      "max_connections": 20,
+      "idle_timeout_ms": 10000
+    },
+    "redis": {
+      "host": "localhost",
+      "port": 6379,
+      "db": 0,
+      "prefix": "harper:"
+    },
+    "vector_store": {
+      "host": "localhost",
+      "port": 8000,
+      "collection": "insurance_data"
+    },
+    "zep": {
+      "host": "localhost",
+      "port": 8080
+    }
+  },
+  "ai": {
+    "openai": {
+      "model": "gpt-4-turbo",
+      "temperature": 0.7,
+      "max_tokens": 2000
+    },
+    "llama_parser": {
+      "api_url": "https://api.llamaparser.ai",
+      "processing_timeout_seconds": 60
+    }
+  },
+  "temporal": {
+    "address": "localhost:7233",
+    "namespace": "harper"
+  },
+  "monitoring": {
+    "metrics_enabled": true,
+    "tracing_enabled": true,
+    "prometheus": {
+      "endpoint": "http://localhost:9090"
+    }
+  }
+}
