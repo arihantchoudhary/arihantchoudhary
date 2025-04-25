@@ -1,0 +1,40 @@
+{
+  "name": "harper-ai-sales-engine",
+  "version": "0.1.0",
+  "description": "AI-powered insurance sales engine for commercial insurance brokerage",
+  "private": true,
+  "workspaces": [
+    "core/node-shared",
+    "services/voice-ai",
+    "services/agents",
+    "services/customer-portal",
+    "services/harper-hub-integration"
+  ],
+  "scripts": {
+    "dev": "npm run dev --workspaces --if-present",
+    "build": "npm run build --workspaces --if-present",
+    "test": "npm run test --workspaces --if-present",
+    "lint": "npm run lint --workspaces --if-present",
+    "format": "prettier --write .",
+    "setup": "node scripts/setup.js"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=8.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.4.5",
+    "@typescript-eslint/eslint-plugin": "^6.2.0",
+    "@typescript-eslint/parser": "^6.2.0",
+    "eslint": "^8.45.0",
+    "eslint-config-prettier": "^8.9.0",
+    "prettier": "^3.0.0",
+    "typescript": "^5.1.6"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "winston": "^3.10.0"
+  },
+  "author": "Harper Insurance",
+  "license": "UNLICENSED"
+}
