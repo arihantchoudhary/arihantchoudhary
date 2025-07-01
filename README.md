@@ -1,10 +1,9 @@
 # Hi, I'm Arihant
 
-Personal Website: [https://www.arihantchoudhary.com](url)
+**Personal Website:** [https://www.arihantchoudhary.com](https://www.arihantchoudhary.com)
 
-LinkedIn: [https://www.linkedin.com/in/arihantchoudhary/ ](url)
+**LinkedIn:** [https://www.linkedin.com/in/arihantchoudhary/](https://www.linkedin.com/in/arihantchoudhary/)
 
-Google Scholar: [https://scholar.google.com/citations?view_op=list_works&hl=en&user=KsM6c7IAAAAJ ](url)
+**Google Scholar:** [https://scholar.google.com/citations?view_op=list_works&hl=en&user=KsM6c7IAAAAJ](https://scholar.google.com/citations?view_op=list_works&hl=en&user=KsM6c7IAAAAJ)
 
-Youtube: [https://www.youtube.com/@ArihantChoudhary-fb1qs ](url)
-
+**YouTube:** [https://www.youtube.com/@ArihantChoudhary-fb1qs](https://www.youtube.com/@ArihantChoudhary-fb1qs)
