@@ -1,6 +1,6 @@
 # Hi, I'm Arihant
 
-**Personal Website:** [https://www.arihantchoudhary.com](https://www.arihantchoudhary.com)
+**Personal Website and samples:** [https://www.arihantchoudhary.com](https://www.arihantchoudhary.com)
 
 **LinkedIn:** [https://www.linkedin.com/in/arihantchoudhary/](https://www.linkedin.com/in/arihantchoudhary/)
 
