@@ -1,4 +1,4 @@
-# Hi, I'm Arihant -- engineer
+# Hi, I'm Arihant -- an engineer
 
 **Personal Website:** [https://www.arihantchoudhary.com](https://www.arihantchoudhary.com)
 
