@@ -1,6 +1,6 @@
-# Hi, I'm Arihant -- an engineer
+# Hi, I'm Arihant, 23, engineer with a background in computer science, environmental science, communications, and business
 
-Call me a liar if there arent like 400 more meaningful commits to production by July 15
+// Call me a liar if there arent like 400 more meaningful commits to production by July 15 // 
 
 **Personal Website:** [https://www.arihantchoudhary.com](https://www.arihantchoudhary.com)
 
