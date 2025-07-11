@@ -2,15 +2,12 @@
 
 I'm 23, engineer.
 
-** Background: **
+**Background**
 - Education
 - Computer Science
 - Environmental science
 - Communications
 - Business
-
-
-// Call me a liar if there arent like 400 more meaningful commits to production by July 15 // 
 
 **Personal Website:** [https://www.arihantchoudhary.com](https://www.arihantchoudhary.com)
 
@@ -20,3 +17,6 @@ I'm 23, engineer.
 
 **YouTube:** [https://www.youtube.com/@ArihantChoudhary-fb1qs](https://www.youtube.com/@ArihantChoudhary-fb1qs)
 
+
+
+// Also call me a liar if there arent like 400 more meaningful commits to production by July 15 // 
