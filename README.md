@@ -1,4 +1,14 @@
-# Hi, I'm Arihant, 23, engineer with a background in computer science, environmental science, communications, and business
+# Hi, I'm Arihant!
+
+I'm 23, engineer.
+
+** Background: **
+- Education
+- Computer Science
+- Environmental science
+- Communications
+- Business
+
 
 // Call me a liar if there arent like 400 more meaningful commits to production by July 15 // 
 
