@@ -19,4 +19,4 @@ I'm 23, engineer.
 
 
 
-// Also call me a liar if there arent like 400 more meaningful commits to production by July 15 // 
+
