@@ -2,13 +2,6 @@
 
 I'm 23, engineer.
 
-**Background**
-- Education
-- Computer Science
-- Environmental science
-- Communications
-- Business
-
 **Personal Website:** [https://www.arihantchoudhary.com](https://www.arihantchoudhary.com)
 
 **LinkedIn:** [https://www.linkedin.com/in/arihantchoudhary/](https://www.linkedin.com/in/arihantchoudhary/)
