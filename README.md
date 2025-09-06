@@ -1,6 +1,6 @@
 # Hi, I'm Arihant!
 
-I'm 23, engineer creating AI.
+I'm 23, engineer.
 
 **Personal Website:** [https://www.arihantchoudhary.com](https://www.arihantchoudhary.com)
 
