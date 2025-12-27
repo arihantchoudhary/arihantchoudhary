@@ -1,6 +1,6 @@
 # Hi, I'm Arihant!
 
-I'm 23, engineer.
+I'm 23, engineer. I specialize building from scratch and going from 0 -> 1, insanely fast
 
 **Personal Website:** [https://www.arihantchoudhary.com](https://www.arihantchoudhary.com)
 
