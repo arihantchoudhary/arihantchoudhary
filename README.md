@@ -1,6 +1,6 @@
 # Hi, I'm Arihant!
 
-I'm 23, engineer. I can building anything (web, mobile, cli, ML models) from scratch and going from 0 -> 1, insanely fast.
+I'm 23, engineer. I can building anything (web, mobile, cli tools) from scratch and going from 0 -> 1, insanely fast.
 
 **Personal Website:** [https://www.arihantchoudhary.com](https://www.arihantchoudhary.com)
 
