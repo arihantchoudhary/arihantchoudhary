@@ -1,6 +1,6 @@
 # Hi, I'm Arihant!
 
-I'm 23, engineer. I love designing and can build anything (web, mobile, cli tools) from scratch. I'm known for going from 0 -> 1, insanely fast.
+I'm 23, engineer. I love designing and can build anything (web, mobile, cli tools) from scratch with ease. I'm known for going from 0 -> 1, insanely fast.
 
 **Personal Website:** [https://www.arihantchoudhary.com](https://www.arihantchoudhary.com)
 
