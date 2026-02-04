@@ -2,7 +2,8 @@
 
 I'm 23, engineer. I love designing and can build anything (web, mobile, cli tools) from scratch with ease. I'm known for going from 0 -> 1, insanely fast.
 
-**Check out [Stardrop](https://www.github.com/stardrop-cli)**
+**Check out [Stardrop's Github Page](https://www.github.com/stardrop-cli) and [Source Code](https://github.com/arihantchoudhary/stardrop)**
+
 
 -----------------------
 
